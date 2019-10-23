@@ -1,1 +1,111 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* @import '~bootstrap/css/bootstrap.min.css';  */
+/* @import '~bootstrap/dist/css/bootstrap.min.css';  */
+
+ body{
+     background-color: #f2f2f2;
+     /* text-align: right; */
+     direction: rtl;
+     font-display: swap;
+    
+ }     
+
+ html, body {margin: 0; height: 100%;overflow-x: hidden}
+ .fa, .far, .fas {
+    font-family: "Font Awesome 5 Free" !important;
+ }
+ .container {
+    max-width: 1235px;
+}
+label
+{
+    font-family: DroidArabicKufiRegular;
+    direction: rtl;
+    font-weight:bolder;
+    font-size: 17px
+}
+
+button
+{
+    font-family: DroidArabicKufiRegular;
+}
+input::placeholder,textarea::placeholder
+{
+    font-size: 17px;
+    font-family: DroidArabicKufiRegular;
+}
+h1,h4,p,a,h3,h5,h2,option,span,select,input
+{
+    font-family: DroidArabicKufiRegular;
+
+}
+.container
+{
+    padding-left: 0
+}
+.container-fluid
+{
+    padding-left: 0
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon
+{
+    background-color: transparent !important;
+    padding:3px;
+    display: none !important
+}
+.indigo
+{
+    background-color: transparent !important;
+}
+ /* img.img-fluid {
+    width: 80% !important;
+  } */
+  .page-item.active .page-link, .page-link,.pagination>.active>a:focus {
+    background-color: #293b8e;
+    border-color: #293b8e;
+  }
+  .pagination>li>a,.pagination>li>span
+  {
+    color: black;
+
+  }
+    
+  .gm-style .gm-style-iw-d
+{
+overflow: auto !important;
+}
+.gm-style .gm-style-iw-d
+{
+    max-height: none !important;
+    max-width: 300px !important;
+}
+.gm-style .gm-style-iw-c
+{
+max-height: 350px !important
+}
+
+.gm-ui-hover-effect
+{
+    background: none !important;
+    display: block !important;
+    border: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: absolute !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    top: 4px !important;
+    right: 5px !important;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    background-color: #7fb0d7 !important ;
+    /* color: white !important; */
+    opacity: 1;
+}
+.gm-ui-hover-effect:hover
+{
+    opacity: 0.5 !important; 
+}

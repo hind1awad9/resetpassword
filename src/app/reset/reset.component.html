@@ -1,0 +1,25 @@
+<div class="container">
+
+    <form [formGroup]="formreset">
+                    <div class="alert alert-danger alert-dismissible" *ngIf="checked==false" style="margin-top: 5%;font-size: 20px;width: 100%">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>error!</strong> {{message}}
+                    </div>
+                    <div class="alert alert-success alert-dismissible" *ngIf="checked==true" style="margin-top: 5%;font-size: 20px;width: 100%">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>error!</strong> {{message}}
+                    </div>
+            <div class="form-group" style=" margin-top: 5%;margin-bottom: 3%;">
+                    <label for="inputEmail4">كلمة السر  </label>
+                    <input type="password" class="form-control" formControlName="password" style="margin-bottom: 7%; height: 43px;font-size: 18px;width: 90%"
+                            placeholder="أدخل كلمة السر الجديدة ">
+            </div>
+  
+  
+     
+            <button type="submit" (click)="reset()"  class="btn " style="margin-bottom: 5%"> أرسال</button>
+            
+    </form>
+  
+  </div>
+  
